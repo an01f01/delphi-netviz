@@ -1,0 +1,65 @@
+object FrmMain: TFrmMain
+  Left = 0
+  Top = 0
+  Caption = 'NetViz'
+  ClientHeight = 527
+  ClientWidth = 449
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 449.000000000000000000
+    Size.Height = 527.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        ColumnSpan = 2
+        Control = TMSFNCWebBrowser1
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = BtnLoadHtml
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 80.000000000000000000
+      end>
+    object TMSFNCWebBrowser1: TTMSFNCWebBrowser
+      Align = Client
+      Size.Width = 449.000000000000000000
+      Size.Height = 447.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnInitialized = TMSFNCWebBrowser1Initialized
+    end
+    object BtnLoadHtml: TButton
+      Anchors = []
+      Position.X = 51.750000000000000000
+      Position.Y = 472.500000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 29.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Load HTML...'
+      TextSettings.Trimming = None
+      OnClick = BtnLoadHtmlClick
+    end
+  end
+end

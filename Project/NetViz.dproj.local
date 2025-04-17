@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/10/01 15:54:29.000.663,=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/16 16:03:56.220,=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/16 16:05:45.171,D:\dev\Medium\delphi-tmsweb-vizjs\Src\ViewModel\NetViz.View.Main.fmx=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2025/04/16 16:05:45.171,D:\dev\Medium\delphi-tmsweb-vizjs\Src\ViewModel\NetViz.View.Main.pas=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/16 16:05:55.090,D:\dev\Medium\delphi-tmsweb-vizjs\Project\NetViz.dproj=C:\Users\anegri\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
